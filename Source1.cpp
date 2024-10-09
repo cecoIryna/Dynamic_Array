@@ -16,6 +16,7 @@ int main()
 	a.Input();
 	a.Output();
 
+
 	cout << "Resize:" << endl;
 	a.ReSize(7);
 	a.Output();
@@ -65,6 +66,13 @@ int main()
 
 	cout << "Array 2 (should remain unchanged): ";
 	arr2.Output();
+
+	DynamicArray arr3(5);
+	arr1.Input();
+
+	// Использование оператора вывода
+	cout << "Array 1: " << arr3;
+
 
 	return 0;
 
